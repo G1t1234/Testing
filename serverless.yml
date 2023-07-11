@@ -51,11 +51,11 @@ provider:
 #    variable1: value1
 
 # you can add packaging information here
-#package:
-#  patterns:
+package:
+  patterns:
 #    - '!exclude-me.js'
 #    - '!exclude-me-dir/**'
-#    - include-me.js
+    - handler.js
 #    - include-me-dir/**
 
 functions:
